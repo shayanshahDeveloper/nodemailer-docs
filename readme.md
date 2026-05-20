@@ -160,7 +160,8 @@ sendEmail(
 );
 ```
 
-```async function sendRegistrationEmail(userEmail, userName) {
+```
+async function sendRegistrationEmail(userEmail, userName) {
   const subject = "Welcome to Your Name!";
   const text = `Hi ${userName},\n\nThank you for registering with Your Name! We're excited to have you on board.\n\nBest regards,\nThe Your Name Team`;
   const html = `<p>Hi ${userName},</p><p>Thank you for registering with Your Name! We're excited to have you on board.</p><p>Best regards,<br>The Your Name Team</p>`;
